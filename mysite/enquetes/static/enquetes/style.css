@@ -5,3 +5,31 @@ body {
     background: rgb(255, 255, 255) url("images/background.png") no-repeat;
     text-align: center;
 }
+.sidenav {
+            height:100%;
+            width:160px;
+            position: fixed;
+            z-index:1;
+            top:0;
+            left:0;
+            background-color:#gray;
+            overflow-x: :hidden;
+            padding-top:20px;
+        }
+ 
+        .sidenav a {
+            padding:6px 8px 6px 16px;
+            text-decoration: none;
+            font-size:25px;
+            color: #greenyellow;
+            display:block;
+        }
+ 
+        .sidenav a:hover{
+            color:#gray;
+        }   
+ 
+        .main{
+            margin-left:160px;
+            padding: 0px 10px;
+        }
